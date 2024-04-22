@@ -26,11 +26,6 @@ This Python script generates random passwords of varying lengths and complexitie
 - **Medium**: Includes letters (uppercase and lowercase), digits, and common special characters.
 - **High**: Includes letters (uppercase and lowercase), digits, common special characters, and additional symbols (£, €, ¥, §, ©, ®).
 
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE] file for details.
