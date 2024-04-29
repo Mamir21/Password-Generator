@@ -17,4 +17,4 @@ def generate_password(length=12, complexity='medium'):
 if __name__ == "__main__":
     length = int(input("Enter the length of the password: "))
     complexity = input("Enter the complexity level (low/medium/high): ").lower()
-    
+    print("Generated password:", generate_password(length, complexity))
