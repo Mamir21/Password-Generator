@@ -13,7 +13,7 @@ def generate_password(length=12, complexity='medium'):
 
     password = ''.join(random.choice(charset) for _ in range(length))
     return password
-
+    
 if __name__ == "__main__":
     length = int(input("Enter the length of the password: "))
     complexity = input("Enter the complexity level (low/medium/high): ").lower()
