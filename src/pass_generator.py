@@ -1,5 +1,4 @@
 import random
-import string
 
 def generate_password(length=12, complexity='medium'):
     if complexity == 'low':
