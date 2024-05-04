@@ -10,7 +10,7 @@ def generate_password(length=12, complexity='medium'):
         charset = string.ascii_letters + string.digits + string.punctuation + '£€¥§©®'
     else:
         raise ValueError("Invalid complexity level. Please choose from 'low', 'medium', or 'high'.")
-
+        
     password = ''.join(random.choice(charset) for _ in range(length))
     return password
     
