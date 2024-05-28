@@ -5,7 +5,7 @@ def generate_password(length=12, complexity='medium'):
     if complexity == 'low':
         charset = string.ascii_letters + string.digits
     elif complexity == 'medium': 
-        charset = string.ascii_letters + string.digits + string.punctuation
+        charset = string.ascii_letters + string.digits + string.punctuation 
     elif complexity == 'high':
         charset = string.ascii_letters + string.digits + string.punctuation + '£€¥§©®'
     else:
