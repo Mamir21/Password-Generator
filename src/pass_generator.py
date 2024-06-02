@@ -1,7 +1,7 @@
 import random
 import string
 
-def generate_password(length=12, complexity='medium'):
+def generate_password(length=12, complexity='medium'): 
     if complexity == 'low':
         charset = string.ascii_letters + string.digits
     elif complexity == 'medium':
