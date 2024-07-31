@@ -2,6 +2,10 @@
 
 This Python script generates random passwords of varying lengths and complexities. It can be useful for creating secure passwords for different purposes.
 
+## Demo
+
+![image](https://github.com/user-attachments/assets/814c9154-cf6f-49ae-a47c-39a39fea04a9)
+
 ## Usage
 
 1. **Clone the repository**:
@@ -22,7 +26,7 @@ This Python script generates random passwords of varying lengths and complexitie
 
 4. **Run the application**:
     ```sh
-    python app.py
+    python src/app.py
     ```
 
 5. **Open a web browser and navigate to**:
@@ -41,12 +45,6 @@ This Python script generates random passwords of varying lengths and complexitie
 - **Low**: Includes only letters (uppercase and lowercase) and digits.
 - **Medium**: Includes letters (uppercase and lowercase), digits, and common special characters.
 - **High**: Includes letters (uppercase and lowercase), digits, common special characters, and additional symbols (£, €, ¥, §, ©, ®).
-
-## Screenshot
-
-Here is a screenshot of the password page:
-
-.
 
 ## License
 
