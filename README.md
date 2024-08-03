@@ -6,7 +6,7 @@ This Python script generates random passwords of varying lengths and complexitie
 
 ![image](https://github.com/user-attachments/assets/814c9154-cf6f-49ae-a47c-39a39fea04a9)
 
-## Usage
+## Installation
 
 1. **Clone the repository**:
     ```sh
